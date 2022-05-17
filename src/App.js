@@ -1,25 +1,22 @@
-import logo from './logo.svg';
-import './App.css';
+import React from 'react'
+import { CssBaseline, Typography,Container,Grid,Divider} from '@material-ui/core';
+import LeftList from './components/List/LeftList';
+import Wrapper from './components/main/Wrapper/Wrapper'
 
-function App() {
+const App = () => {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+     <Container>
+       <CssBaseline />
+       <Grid container >
+         <Grid xs={2}>
+           <LeftList />
+         </Grid>
+         <Grid xs={10}>
+           <Wrapper />
+         </Grid>
+        </Grid>
+     </Container>
+  )
 }
 
 export default App;
