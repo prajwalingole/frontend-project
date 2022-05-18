@@ -15,10 +15,10 @@ import HelpOutlineOutlinedIcon from '@mui/icons-material/HelpOutlineOutlined';
 export const mainListItems = (
     <>
     <ListItemButton style={{maxWidth: '30px', maxHeight: '35px', minWidth: '30px', minHeight: '30px'}}>
-      <ListItemIcon>
+      <ListItemIcon style={{color: '#7e57c2'}}>
         <GridViewIcon />
       </ListItemIcon>
-      <ListItemText primary="Dashboard" />
+      <ListItemText style={{color: '#7e57c2'}} primary="Dashboard" />
     </ListItemButton>
     <ListItemButton style={{maxWidth: '30px', maxHeight: '35px', minWidth: '30px', minHeight: '30px'}}>
       <ListItemIcon>
@@ -44,7 +44,7 @@ export const mainListItems = (
       </ListItemIcon>
       <ListItemText primary="Orders Lists" />
     </ListItemButton>
-    <ListItemButton style={{maxWidth: '300px', maxHeight: '35px',marginBottom: '15px'}}>
+    <ListItemButton style={{maxWidth: '300px', maxHeight: '35px',marginBottom: '5px'}}>
       <ListItemIcon>
         <Inventory2OutlinedIcon />
       </ListItemIcon>
@@ -58,10 +58,10 @@ export const mainListItems = (
 
 export const secondaryListItems = (
     <>
-    <ListSubheader component="div"  style={{marginTop: '5px'}}>
-      Account
+    <ListSubheader component="div"  style={{marginTop: '0px'}}>
+      ACCOUNT
     </ListSubheader>
-    <ListItemButton style={{maxWidth: '30px', maxHeight: '35px', minWidth: '30px', minHeight: '30px'}}>
+    <ListItemButton style={{maxWidth: '30px',maxHeight: '35px', minWidth: '30px', minHeight: '30px'}}>
       <ListItemIcon>
         <SettingsOutlinedIcon />
       </ListItemIcon>

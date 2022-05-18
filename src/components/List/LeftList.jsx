@@ -10,7 +10,7 @@ const LeftList = () => {
   return (
     <div>
       <Grid container>
-        <ViewCompactIcon />
+        <ViewCompactIcon style={{color: '#7e57c2'}} />
         <Typography className={classes.title} gutterbottom>
           Analyze.
         </Typography>
