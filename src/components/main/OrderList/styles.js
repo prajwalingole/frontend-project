@@ -7,9 +7,24 @@ export default makeStyles((theme) => ({
         marginTop: '10px'
     },
     txt: {
-        color: '#01579b',
+        color: '#4e4e84',
         fontWeight: 'bold',
         marginTop: '7px',
         marginBottom: '5px'
+    },
+    rowc: {
+        paddingLeft: '13px'
+    },
+    id: {
+        fontSize: '11px',
+        paddingTop: '3px',
+        color: '#bdbdbd',
+        fontWeight: 'bold'
+    },
+    pname: {
+        fontSize: '12px',
+        color: '#4e4e84',
+        fontWeight: 'bold'
     }
+
 }));
