@@ -1,5 +1,5 @@
 import React from 'react'
-import { Container, Grid, Typography } from '@material-ui/core';
+import { Container, Grid } from '@material-ui/core';
 import Table from '@mui/material/Table';
 import TableBody from '@mui/material/TableBody';
 import TableCell from '@mui/material/TableCell';
@@ -14,8 +14,8 @@ function createData(product, orderdate, status, customer, priceperunit, quantity
 }
 
 const rows = [
-  createData('Frozen yoghurt', 159, 6.0, 24, 4.0, 1, 2),
-  createData('Frozen yoghurt', 159, 6.0, 24, 4.0, 1, 2),
+  createData('Camera Nikon D 5000 kit', 'December 12, 2021', 'Shipping', 'Collective Electronic', '$2,102.00', 'x 10', '$21.020.00'),
+  createData('Polaroid Onestep Plus Instant', 'Septemper 20, 2021', 'Success', 'Aleya Photograph Inc,', '$299.00', 'x 20', '$5,980.00'),
 ];
 
 const OrderList = () => {
@@ -57,18 +57,51 @@ const OrderList = () => {
                         #23478
                       </div>
                       <div className={classes.pname}>
-                      {row.product}
+                        {row.product}
                       </div>
                     </div>
                   </Grid>
                 </Grid>
               </TableCell>
-              <TableCell padding="none" align="right">{row.orderdate}</TableCell>
-              <TableCell padding="none" align="right">{row.status}</TableCell>
-              <TableCell padding="none" align="right">{row.customer}</TableCell>
-              <TableCell padding="none" align="right">{row.priceperunit}</TableCell>
-              <TableCell padding="none" align="right">{row.quantity}</TableCell>
-              <TableCell padding="none" align="right">{row.totalprice}</TableCell>
+              <TableCell padding="none" align="right">
+                {row.orderdate=="December 12, 2021"?
+                <div className={classes.am}>10:09 AM</div>
+                :<div className={classes.am}>12:09 AM</div>
+               }
+                <div className={classes.pname}>{row.orderdate}</div>
+              </TableCell>
+              <TableCell padding="none" align="right">
+                {row.status=="Shipping"?
+                  <div className={classes.status}>
+                    {row.status}
+                  </div>
+                  :
+                  <div className={classes.stat}>
+                  {row.status}
+                </div>
+                }
+              </TableCell>
+              <TableCell padding="none" align="right">
+                <div className={classes.cusf}>
+                {row.customer}
+                </div>
+                {
+                  row.customer=="Collective Electronic"?
+                <div className={classes.cuss}>
+                  Los Angels, New york
+                </div>
+                :<div className={classes.cuss}>
+                Surabaya, Indonesia
+              </div>
+                }
+                </TableCell>
+              <TableCell padding="none" align="right">
+                <div className={classes.ppu}>
+                {row.priceperunit}
+                </div>
+                </TableCell>
+              <TableCell padding="none" align="right"><div className={classes.ppu}>{row.quantity}</div></TableCell>
+              <TableCell padding="none" align="right"><div className={classes.tp}>{row.totalprice}</div></TableCell>
             </TableRow>
           ))}
         </TableBody>

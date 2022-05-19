@@ -15,7 +15,14 @@ export default makeStyles(() => ({
       fontWeight: 'bold'
   },
   stxt: {
-      color: '#4caf50'
+      color: '#95e6d0',
+      fontWeight: 'bold'
+  },
+  img: {
+      width: '55px',
+      height: '55px',
+      paddingLeft: '15px',
+      paddingTop: '12px'
   }
   
 }));
