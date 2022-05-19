@@ -4,13 +4,16 @@ export default makeStyles((theme) => ({
     ftxt: {
         fontWeight: 'bold',
         backgroundColor: '#e0e0e0',
+        padding: '2px 2px'
     },
     stxt: {
-        paddingLeft: '5px',
-        backgroundColor: '#f5f5f5'
+        paddingLeft: '10px',
+        backgroundColor: '#f5f5f5',
+        color: '#757575'
     },
     ttxt: {
-        paddingLeft: '5px',
+        paddingLeft: '10px',
+        color: '#bdbdbd'
     },
     container: {
         paddingBottom: '0px',

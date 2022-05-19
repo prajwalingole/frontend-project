@@ -56,9 +56,11 @@ export default function SearchAppBar() {
     <div className={classes.container}>
     
     <Toolbar className={classes.toolbar}>
-          <Typography className={classes.ftxt} variant="button">
+          <div className={classes.ftxt}>
+          <Typography variant="button">
             EN
           </Typography>
+          </div>
           <Typography className={classes.stxt} variant="h7">
             ID
           </Typography>

@@ -21,18 +21,49 @@ export default makeStyles((theme) => ({
         marginLeft: '155px'
     },
     ftxt: {
-        fontSize: '4'
-    },
-    stxt: {
-        fontSize: '16',
+        fontSize: '10px',
+        color: '#bdbdbd',
         fontWeight: 'bold'
     },
+    stxt: {
+        fontSize: '19px',
+        fontWeight: 'bold',
+        color: '#4e4e84'
+    },
     ttxt: {
-        fontSize: '2',
-        marginBottom: '15px'
+        fontSize: '8px',
+        marginBottom: '20px',
+        color: '#cfd8dc'
     },
     btn: {
         marginTop: '6px',
         marginBottom: '10px'
-    }
+    },
+    per: {
+        color: '#00e676',
+        fontWeight: 'bold',
+        fontSize: '10px'
+    },
+    calldiv: {
+        paddingLeft: '140px',
+    },
+    righticon: {
+        paddingLeft: '200px'
+    },
+    sd: {
+        color: '#b388ff',
+        fontSize: '12px',
+        fontWeight: 'bold'
+    },
+    cont: {
+        backgroundColor: '#b388ff',
+        paddingTop: '10px',
+        paddingLeft: '4px',
+        paddingRight: '4px'
+    },
+    sdt: {
+        fontSize: '12px',
+        fontWeight: 'bold',
+        color: 'white'
+    },
 }));

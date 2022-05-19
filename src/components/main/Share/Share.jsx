@@ -11,22 +11,22 @@ const Share = () => {
     <Container className={classes.container}>
       <Grid container>
         <Grid item xs={9.5}>
-          <Typography className={classes.fxt} varaint="h7">
-            Hi, Albert Tristain
+          <Typography variant='h6' component="div" sx={{fontWeight: "bold",color: '#4e4e84',fontSize: '16px'}}>
+            Hi, Albert Tristian
           </Typography>
-          <Typography className={classes.stxt} variant="h7">
+          <Typography variant='h6' component="div" sx={{fontSize: "12px",color: '#bdbdbd'}}>
             welcome back to analyze
           </Typography>
         </Grid>
         <Grid item xs={2.5} >
-        <Grid container spacing={0.5}>
-          <Grid item xs={6}>
-            <Button className={classes.btn} size="small" variant="outlined">Share <ShareOutlinedIcon /></Button>
+          <Grid container spacing={0.5}>
+            <Grid item xs={6}>
+              <Button className={classes.btn} size="small" variant="outlined" sx={{color: '#8676ff'}}>Share <ShareOutlinedIcon /></Button>
             </Grid>
             <Grid item xs={6}>
-          <Button className={classes.btn} size="small" variant="contained">Export <DownloadOutlinedIcon /></Button>
-        </Grid>
-        </Grid>
+              <Button className={classes.btn} size="small" variant="contained" sx={{backgroundColor: '#8676ff'}}>Export <DownloadOutlinedIcon /></Button>
+            </Grid>
+          </Grid>
         </Grid>
       </Grid>
     </Container>
