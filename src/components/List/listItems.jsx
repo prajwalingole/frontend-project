@@ -1,13 +1,10 @@
 import React from 'react'
 import { ListItemButton , ListItemIcon , ListItemText,ListSubheader,Typography} from '@mui/material';
 import GridViewIcon from '@mui/icons-material/GridView';
-import ViewInArIcon from '@mui/icons-material/ViewInAr';
+import { BiCube, BiBox } from 'react-icons/bi';
+import { FiPackage,FiMessageCircle,FiPenTool } from 'react-icons/fi'
 import FavoriteBorderIcon from '@mui/icons-material/FavoriteBorder';
-import ChatBubbleOutlineIcon from '@mui/icons-material/ChatBubbleOutline';
-import ProductionQuantityLimitsIcon from '@mui/icons-material/ProductionQuantityLimits';
-import Inventory2OutlinedIcon from '@mui/icons-material/Inventory2Outlined';
 import SettingsOutlinedIcon from '@mui/icons-material/SettingsOutlined';
-import DarkModeOutlinedIcon from '@mui/icons-material/DarkModeOutlined';
 import HelpOutlineOutlinedIcon from '@mui/icons-material/HelpOutlineOutlined';
 
 
@@ -22,7 +19,7 @@ export const mainListItems = (
     </ListItemButton>
     <ListItemButton style={{maxWidth: '30px', maxHeight: '35px', minWidth: '30px', minHeight: '30px'}}>
       <ListItemIcon>
-        <ViewInArIcon />
+        <BiCube size={23}/>
       </ListItemIcon>
       <ListItemText style={{color: '#9e9e9e'}} primary="Product" />
     </ListItemButton>
@@ -34,19 +31,19 @@ export const mainListItems = (
     </ListItemButton>
     <ListItemButton style={{maxWidth: '30px', maxHeight: '35px', minWidth: '30px', minHeight: '30px'}}>
       <ListItemIcon>
-        <ChatBubbleOutlineIcon />
+        <FiMessageCircle size={23} />
       </ListItemIcon>
       <ListItemText style={{color: '#9e9e9e'}} primary="Messages" />
     </ListItemButton>
     <ListItemButton style={{maxWidth: '200px', maxHeight: '35px'}}>
       <ListItemIcon>
-        <ProductionQuantityLimitsIcon />
-      </ListItemIcon>
+        <FiPackage size={23} />
+      </ListItemIcon >
       <ListItemText style={{color: '#9e9e9e'}} primary="Orders Lists" />
     </ListItemButton>
     <ListItemButton style={{maxWidth: '300px', maxHeight: '35px',marginBottom: '5px'}}>
       <ListItemIcon>
-        <Inventory2OutlinedIcon />
+        <BiBox size={23} />
       </ListItemIcon>
       <Typography style={{color: '#9e9e9e'}} >
         Product Stock
@@ -69,7 +66,7 @@ export const secondaryListItems = (
     </ListItemButton>
     <ListItemButton style={{maxWidth: '30px', maxHeight: '35px', minWidth: '30px', minHeight: '30px'}}>
       <ListItemIcon>
-        <DarkModeOutlinedIcon />
+        <FiPenTool size={23} />
       </ListItemIcon>
       <ListItemText style={{color: '#9e9e9e'}} primary="Themes" />
     </ListItemButton>

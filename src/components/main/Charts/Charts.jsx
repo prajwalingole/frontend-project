@@ -10,10 +10,10 @@ const Charts = () => {
   return (
     <Container className={classes.container}>
       <Grid container spacing={2}>
-        <Grid item xs={8}>
+        <Grid item lg={8}>
           <SalesChart />
         </Grid>
-        <Grid item xs={4}>
+        <Grid item lg={4}>
           <SocialChart />
         </Grid>
       </Grid>
