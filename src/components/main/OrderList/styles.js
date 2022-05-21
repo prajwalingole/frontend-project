@@ -4,13 +4,12 @@ export default makeStyles((theme) => ({
     container: {
         width: '100%',
         height: '100%',
-        marginTop: '10px'
+        marginTop: '18px'
     },
     txt: {
         color: '#4e4e84',
         fontWeight: 'bold',
-        marginTop: '7px',
-        marginBottom: '5px'
+        marginTop: '5px',
     },
     rowc: {
         paddingLeft: '13px'
@@ -46,7 +45,7 @@ export default makeStyles((theme) => ({
         paddingTop: '3px',
         color: '#bdbdbd',
         fontWeight: 'bold',
-        paddingRight: '33px'
+        paddingRight: '60px'
     },
     status: {
         color: '#ff7043',
@@ -74,6 +73,30 @@ export default makeStyles((theme) => ({
         color: '#66dcbc',
         fontWeight: 'bold',
         paddingBottom: '5px',
+        paddingRight: '15px'
+    },
+    tpro: {
+      fontSize: '11px',
+      fontWeight: 'bold',
+      marginRight: '29px',
+      paddingRight: '15px'
+    },
+    tpro2: {
+        fontSize: '11px',
+        fontWeight: 'bold',
+        marginRight: '20px',
+        paddingRight: '15px'
+    },
+    tpro3: {
+        fontSize: '11px',
+        fontWeight: 'bold',
+        marginRight: '40px',
+        paddingRight: '15px'
+    },
+    tpro4: {
+        fontSize: '11px',
+        fontWeight: 'bold',
+        marginRight: '0px',
         paddingRight: '15px'
     }
 

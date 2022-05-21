@@ -2,7 +2,7 @@ import React from 'react'
 import { Card,Grid } from '@mui/material';
 import { AreaChart, Area, XAxis, YAxis, CartesianGrid, Tooltip, ResponsiveContainer } from 'recharts';
 import { SalesData } from '../Data';
-import { ClassNames } from '@emotion/react';
+import KeyboardArrowDownIcon from '@mui/icons-material/KeyboardArrowDown';
 import useStyles from './styles'
 
 function Custom({ active, payload }) {
@@ -19,13 +19,19 @@ function Custom({ active, payload }) {
 const SalesChart = () => {
   const classes = useStyles();
   return (
-    <Card>
+    <Card sx={{height: '200px'}}>
       <Grid container>
         <Grid item>
           <div className={classes.ftxt}>Sales Analytics</div>
         </Grid>
         <Grid item>
-          {/* <div className={classes.stxt}>Period  This week</div> */}
+          <Card sx={{marginLeft: '400px',height: '18px',marginTop: '7px'}}>
+            <Grid container>
+              <Grid sx={{color: '#bdbdbd',fontSize: '11px',marginRight: '2px'}} item>Period:  </Grid>
+              <Grid sx={{fontSize: '11px',color: '#4e4e84'}} item>This Week </Grid>
+              <Grid item><div className={classes.icon}><KeyboardArrowDownIcon /></div></Grid>
+            </Grid>
+          </Card>
         </Grid>
       </Grid>
       <ResponsiveContainer height={180}  >

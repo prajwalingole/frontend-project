@@ -4,14 +4,18 @@ export default makeStyles((theme) => ({
     ftxt: {
         color: '#4e4e84',
         fontWeight: 'bold',
-        marginLeft: '10px',
+        marginLeft: '15px',
         fontSize: '12px',
-        marginTop: '5px',
-        marginBottom: '2px'
+        marginTop: '7px',
+        marginBottom: '5px',
     },
     stxt: {
         marginLeft: '385px',
         fontSize: '10px',
         marginTop: '5px'
+    },
+    icon: {
+        color:'#607d8b',
+        fontSize: '8px',
     }
 }));

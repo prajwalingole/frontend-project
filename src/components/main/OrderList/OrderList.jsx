@@ -1,5 +1,5 @@
 import React from 'react'
-import { Container, Grid } from '@material-ui/core';
+import { Container, Grid,Typography } from '@material-ui/core';
 import Table from '@mui/material/Table';
 import TableBody from '@mui/material/TableBody';
 import TableCell from '@mui/material/TableCell';
@@ -28,13 +28,13 @@ const OrderList = () => {
       <Table aria-label="simple table">
         <TableHead>
           <TableRow>
-            <TableCell sx={{ color: '#b0bec5' }} padding="none">PRODUCT</TableCell>
-            <TableCell sx={{ color: '#b0bec5' }} padding="none" align="right">ORDER DATE</TableCell>
-            <TableCell sx={{ color: '#b0bec5' }} padding="none" align="right">STATUS</TableCell>
-            <TableCell sx={{ color: '#b0bec5' }} padding="none" align="right">CUSTOMER</TableCell>
-            <TableCell sx={{ color: '#b0bec5' }} padding="none" align="right">PRICE PER UNIT</TableCell>
-            <TableCell sx={{ color: '#b0bec5' }} padding="none" align="right">QUANTITY</TableCell>
-            <TableCell sx={{ color: '#b0bec5' }} padding="none" align="right">TOTAL PRICE</TableCell>
+            <TableCell sx={{ color: '#b0bec5' }} padding="none"><div className={classes.tpro}>PRODUCT</div></TableCell>
+            <TableCell sx={{ color: '#b0bec5' }} padding="none" align="right"><div className={classes.tpro}>ORDER DATE</div></TableCell>
+            <TableCell sx={{ color: '#b0bec5' }} padding="none" align="right"><div className={classes.tpro2}>STATUS</div></TableCell>
+            <TableCell sx={{ color: '#b0bec5' }} padding="none" align="right"><div className={classes.tpro3}>CUSTOMER</div></TableCell>
+            <TableCell sx={{ color: '#b0bec5' }} padding="none" align="right"><div className={classes.tpro4}>PRICE PER UNIT</div></TableCell>
+            <TableCell sx={{ color: '#b0bec5' }} padding="none" align="right"><div className={classes.tpro4}>QUANTITY</div></TableCell>
+            <TableCell sx={{ color: '#b0bec5' }} padding="none" align="right"><div className={classes.tpro4}>TOTAL PRICE</div></TableCell>
           </TableRow>
         </TableHead>
         <TableBody>
