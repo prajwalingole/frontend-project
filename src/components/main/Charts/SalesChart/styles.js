@@ -5,8 +5,7 @@ export default makeStyles((theme) => ({
         color: '#4e4e84',
         fontWeight: 'bold',
         marginLeft: '15px',
-        fontSize: '12px',
-        marginTop: '7px',
+        fontSize: '14px',
         marginBottom: '5px',
     },
     stxt: {

@@ -2,12 +2,13 @@ import { makeStyles } from '@material-ui/core/styles';
 
 export default makeStyles((theme) => ({
     card: {
-        height: '60%',
+        height: '70%',
+        width: '100%',
         borderRadius: '5px',
         marginTop: '10px',
     },
     container: {
-        height: '130px'
+        height: '140px'
     },
     actions: {
         height: '40%'
@@ -33,6 +34,7 @@ export default makeStyles((theme) => ({
     ttxt: {
         fontSize: '8px',
         marginBottom: '20px',
+        marginTop: '7px',
         color: '#cfd8dc'
     },
     btn: {
@@ -45,7 +47,7 @@ export default makeStyles((theme) => ({
         fontSize: '10px'
     },
     calldiv: {
-        paddingLeft: '140px',
+        paddingLeft: '200px',
     },
     righticon: {
         paddingLeft: '200px'

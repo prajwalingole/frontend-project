@@ -16,6 +16,8 @@ function createData(product, orderdate, status, customer, priceperunit, quantity
 const rows = [
   createData('Camera Nikon D 5000 kit', 'December 12, 2021', 'Shipping', 'Collective Electronic', '$2,102.00', 'x 10', '$21.020.00'),
   createData('Polaroid Onestep Plus Instant', 'Septemper 20, 2021', 'Success', 'Aleya Photograph Inc,', '$299.00', 'x 20', '$5,980.00'),
+  createData('Polaroid Onestep Plus Instant', 'Septemper 20, 2021', 'Success', 'Aleya Photograph Inc,', '$299.00', 'x 20', '$5,980.00'),
+  
 ];
 
 const OrderList = () => {

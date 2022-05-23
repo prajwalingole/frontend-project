@@ -4,12 +4,13 @@ export default makeStyles((theme) => ({
     container: {
         width: '100%',
         height: '100%',
-        marginTop: '18px'
+        marginTop: '25px'
     },
     txt: {
         color: '#4e4e84',
         fontWeight: 'bold',
         marginTop: '5px',
+        marginBottom: '5px'
     },
     rowc: {
         paddingLeft: '13px'
@@ -79,25 +80,29 @@ export default makeStyles((theme) => ({
       fontSize: '11px',
       fontWeight: 'bold',
       marginRight: '29px',
-      paddingRight: '15px'
+      paddingRight: '15px',
+      marginBottom: '5px'
     },
     tpro2: {
         fontSize: '11px',
         fontWeight: 'bold',
         marginRight: '20px',
-        paddingRight: '15px'
+        paddingRight: '15px',
+        marginBottom: '5px'
     },
     tpro3: {
         fontSize: '11px',
         fontWeight: 'bold',
         marginRight: '40px',
-        paddingRight: '15px'
+        paddingRight: '15px',
+        marginBottom: '5px'
     },
     tpro4: {
         fontSize: '11px',
         fontWeight: 'bold',
         marginRight: '0px',
-        paddingRight: '15px'
+        paddingRight: '15px',
+        marginBottom: '5px'
     }
 
 }));

@@ -11,15 +11,15 @@ const SocialChart = () => {
   const classes = useStyles();
   return (
     <Card>
-      <Grid container>
-        <Grid item>
+      <Grid container sx={{marginTop: '4px',marginBottom: '3px'}}>
+        <Grid item lg={10} xs={10} md={10}>
           <div className={classes.title}>Social Source</div>
         </Grid>
-        <Grid item>
-          <div className={classes.icon}><MoreHorizIcon sx={{ color: '#bdbdbd' }} /></div>
+        <Grid item lg={2} xs={2} md={2}>
+          <MoreHorizIcon sx={{ color: '#bdbdbd' }} />
         </Grid>
       </Grid>
-      <ResponsiveContainer width="100%" height={170}>
+      <ResponsiveContainer width="100%" height={200}>
         <PieChart>
           {SocialData.map((entry, index) => (
             <Pie
@@ -40,7 +40,7 @@ const SocialChart = () => {
       </ResponsiveContainer>
       <Box>
         <Box sx={{
-          position: "absolute", left: "83%", top: "340px", transform: "translateX(-50%)",
+          position: "absolute", left: "83%", top: "380px", transform: "translateX(-50%)",
           display: "flex", flexDirection: "column",
           alignItems: "center",
         }}
@@ -81,17 +81,17 @@ const SocialChart = () => {
             Products
           </Typography>
           <Grid className={classes.cont} container>
-            <Grid item>
+            <Grid item lg={5}>
               <div className={classes.cont1}></div>
               <div className={classes.fs}>E-Commerce</div>
               <div className={classes.ss}>1,618</div>
             </Grid>
-            <Grid item>
+            <Grid item lg={4}>
               <div className={classes.cont2}></div>
               <div className={classes.fs}>Facebook</div>
               <div className={classes.ss}>808</div>
             </Grid>
-            <Grid item>
+            <Grid item lg={3}>
               <div className={classes.cont3}></div>
               <div className={classes.fs}>Instagram</div>
               <div className={classes.ss}>808</div>

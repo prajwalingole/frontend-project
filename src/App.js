@@ -8,10 +8,10 @@ const App = () => {
      <Container>
        <CssBaseline />
        <Grid container >
-         <Grid xs={2}>
+         <Grid lg={2} xs={2} md={2}>
            <LeftList />
          </Grid>
-         <Grid xs={10}>
+         <Grid lg={10} xs={2} md={2}>
            <Wrapper />
          </Grid>
         </Grid>

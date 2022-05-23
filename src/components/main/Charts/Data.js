@@ -59,7 +59,7 @@ export const SalesData = [
 ];
 
 export const SocialData = [
-    { name: 'E-Commerce', value: 1618, color: '#21cc9e', st: 180, ed: 90, inr: 56, otr: 89},
-    { name: 'Facebook', value: 808, color: '#8676ff', st: 90, ed: 45, inr: 58, otr: 87 },
-    { name: 'Instagram', value: 808, color: '#eff4f8', st: 45, ed: 0,inr: 60, otr: 85 },
+    { name: 'E-Commerce', value: 1618, color: '#21cc9e', st: 180, ed: 90, inr: 61, otr: 104},
+    { name: 'Facebook', value: 808, color: '#8676ff', st: 90, ed: 45, inr: 64, otr: 103 },
+    { name: 'Instagram', value: 808, color: '#eff4f8', st: 45, ed: 0,inr: 67, otr: 98 },
 ];

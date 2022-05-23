@@ -19,13 +19,13 @@ function Custom({ active, payload }) {
 const SalesChart = () => {
   const classes = useStyles();
   return (
-    <Card sx={{height: '200px'}}>
-      <Grid container>
-        <Grid item>
+    <Card >
+      <Grid container sx={{marginTop: '15px',marginBottom: '12px'}}>
+        <Grid item lg={9} xs={9} md={9}>
           <div className={classes.ftxt}>Sales Analytics</div>
         </Grid>
-        <Grid item>
-          <Card sx={{marginLeft: '400px',height: '18px',marginTop: '7px'}}>
+        <Grid item lg={3} xs={3} md={3} >
+          <Card sx={{width: '80%',height: '75%'}}>
             <Grid container>
               <Grid sx={{color: '#bdbdbd',fontSize: '11px',marginRight: '2px'}} item>Period:  </Grid>
               <Grid sx={{fontSize: '11px',color: '#4e4e84'}} item>This Week </Grid>

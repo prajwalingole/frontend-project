@@ -10,12 +10,12 @@ const Cards = () => {
   const classes = useStyles();
   return (
     <Container className={classes.container} maxwidth="lg">
-      <Grid container spacing={1}>
-        <Grid item>
+      <Grid container spacing={4}>
+        <Grid item lg={4} xs={12} md={6} >
           <Card className={classes.card} variant="outlined">
             <CardContent className={classes.content}>
               <Grid container>
-                <Grid item>
+                <Grid item lg={10}>
                   <div className={classes.ftxt}>
                     TOTAL INCOME
                   </div>
@@ -23,10 +23,8 @@ const Cards = () => {
                     $589,209.78
                   </div>
                 </Grid>
-                <Grid item>
-                  <div className={classes.calldiv}>
+                <Grid item lg={2}>
                     <CallMadeIcon sx={{ color: '#00e676', fontSize: '20px' }} />
-                  </div>
                 </Grid>
               </Grid>
               <div className={classes.ttxt}>
@@ -36,23 +34,23 @@ const Cards = () => {
             <Divider />
             <CardActions className={classes.actions}>
               <Grid container>
-                <Grid item>
+                <Grid item lg={10}>
                   <div className={classes.sd}>
                     See Detail
                   </div>
                 </Grid>
-                <Grid item>
-                  <div className={classes.righticon}><KeyboardDoubleArrowRightIcon sx={{color: '#4e4e84'}} /></div>
+                <Grid item lg={2}>
+                  <KeyboardDoubleArrowRightIcon sx={{color: '#4e4e84'}} />
                 </Grid>
               </Grid>
             </CardActions>
           </Card>
         </Grid>
-        <Grid item>
+        <Grid item lg={4} xs={12} md={6}>
           <Card className={classes.card} variant="outlined">
             <CardContent className={classes.content}>
               <Grid container>
-                <Grid item>
+                <Grid item lg={10}>
                   <div className={classes.ftxt}>
                     TOTAL EXPENSE
                   </div>
@@ -60,10 +58,8 @@ const Cards = () => {
                     $120,458.90
                   </div>
                 </Grid>
-                <Grid item>
-                  <div className={classes.calldiv}>
+                <Grid item lg={2}>
                     <SouthEastIcon sx={{ color: '#ef5350', fontSize: '20px' }} />
-                  </div>
                 </Grid>
               </Grid>
               <div className={classes.ttxt}>
@@ -73,23 +69,23 @@ const Cards = () => {
             <Divider />
             <CardActions className={classes.actions}>
             <Grid container>
-                <Grid item>
+                <Grid item lg={10}>
                   <div className={classes.sd}>
                     See Detail
                   </div>
                 </Grid>
-                <Grid item>
-                  <div className={classes.righticon}><KeyboardDoubleArrowRightIcon sx={{color: '#4e4e84'}} /></div>
+                <Grid item lg={2}>
+                  <KeyboardDoubleArrowRightIcon sx={{color: '#4e4e84'}} />
                 </Grid>
               </Grid>
             </CardActions>
           </Card>
         </Grid>
-        <Grid item>
+        <Grid item lg={4} xs={12} md={6} >
           <Card className={classes.card} variant="outlined">
             <CardContent className={classes.content}>
               <Grid container>
-                <Grid item>
+                <Grid item lg={10}>
                   <div className={classes.ftxt}>
                     TOTAL INCOME
                   </div>
@@ -97,10 +93,8 @@ const Cards = () => {
                     502,903
                   </div>
                 </Grid>
-                <Grid item>
-                  <div className={classes.calldiv}>
+                <Grid item lg={2}>
                     <CallMadeIcon sx={{ color: '#00e676', fontSize: '20px' }} />
-                  </div>
                 </Grid>
               </Grid>
               <div className={classes.ttxt}>
@@ -109,18 +103,16 @@ const Cards = () => {
             </CardContent>
             <Divider />
             <CardActions className={classes.actions}>
-              <div className={classes.cont}>
-            <Grid  container>
-                <Grid item>
-                  <div className={classes.sdt}>
+              <Grid container>
+            <Grid item lg={10}>
+                  <div className={classes.sd}>
                     See Detail
                   </div>
                 </Grid>
-                <Grid item>
-                  <div className={classes.righticon}><KeyboardDoubleArrowRightIcon sx={{color: '#4e4e84',marginBottom:'7px'}} /></div>
+                <Grid item lg={2}>
+                  <KeyboardDoubleArrowRightIcon sx={{color: '#4e4e84'}} />
                 </Grid>
               </Grid>
-              </div>
             </CardActions>
           </Card>
         </Grid>

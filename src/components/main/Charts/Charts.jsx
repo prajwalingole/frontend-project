@@ -9,11 +9,11 @@ const Charts = () => {
   const classes = useStyles();
   return (
     <Container className={classes.container}>
-      <Grid container spacing={2}>
-        <Grid item lg={8}>
+      <Grid container spacing={3}>
+        <Grid item lg={8} xs={12} md={6}>
           <SalesChart />
         </Grid>
-        <Grid item lg={4}>
+        <Grid item lg={4} xs={12} md={6}>
           <SocialChart />
         </Grid>
       </Grid>

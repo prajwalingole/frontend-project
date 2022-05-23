@@ -10,20 +10,20 @@ const wrapper = () => {
   return (
     <Container>
       <Grid>
-        <Grid>
+        <Grid lg={12} xs={12} md={12}>
           <Appbar />
           <Divider orientation='horizontal' />
         </Grid>
-        <Grid>
+        <Grid lg={12} xs={12} md={12}>
           <Share />
         </Grid>
-        <Grid>
+        <Grid lg={12} xs={12} md={12}>
           <Cards />
         </Grid>
-        <Grid>
+        <Grid lg={12} xs={12} md={12}>
           <Charts />
         </Grid>
-        <Grid>
+        <Grid lg={12} xs={12} md={12}>
           <OrderList />
         </Grid>
       </Grid>
